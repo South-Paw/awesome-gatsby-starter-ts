@@ -62,5 +62,5 @@ If you manage to find any, please report them [here](https://github.com/South-Pa
 
 MIT, see the [LICENSE](https://github.com/South-Paw/awesome-gatsby-starter-ts/blob/master/LICENSE) file.
 
-[netlify-master-status-img]: https://api.netlify.com/api/v1/badges/d8263355-7dbf-47c7-bb20-888bd4f0fd36/deploy-status
+[netlify-master-status-img]: https://api.netlify.com/api/v1/badges/18f2589a-c443-4e19-b18a-8aa175175171/deploy-status
 [netlify-master-status]: https://app.netlify.com/sites/awesome-gatsby-starter-ts/deploys
