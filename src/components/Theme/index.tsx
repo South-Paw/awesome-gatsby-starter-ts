@@ -5,9 +5,7 @@ import { BaseCSS } from './BaseCSS';
 
 const system = {};
 
-export interface ThemeProps {}
-
-export const Theme: React.FC<ThemeProps> = ({ children }) => (
+const Theme: React.FC = ({ children }) => (
   <ThemeProvider theme={system}>
     <>
       <Normalize />
@@ -16,3 +14,5 @@ export const Theme: React.FC<ThemeProps> = ({ children }) => (
     </>
   </ThemeProvider>
 );
+
+export { Theme };

@@ -8,14 +8,12 @@ const seo: SeoObject = {
   title: 'Home',
 };
 
-const IndexPage: React.FC<PageProps> = (props) => {
-  return (
-    <Site seo={seo} {...props}>
-      <Container>
-        <Readme />
-      </Container>
-    </Site>
-  );
-};
+const IndexPage: React.FC<PageProps> = (props) => (
+  <Site seo={seo} {...props}>
+    <Container>
+      <Readme />
+    </Container>
+  </Site>
+);
 
 export default IndexPage;

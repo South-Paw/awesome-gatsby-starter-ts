@@ -4,9 +4,15 @@ export interface ContainerProps {
   maxWidth?: number;
 }
 
-export const Container = styled('div')<ContainerProps>`
+const Container = styled('div')<ContainerProps>`
   margin: 0 auto;
   padding: 0 24px;
-  max-width: ${(p) => p.maxWidth ?? 800}px;
+  max-width: ${(p) => p.maxWidth}px;
   width: 100%;
 `;
+
+Container.defaultProps = {
+  maxWidth: 800,
+};
+
+export { Container };

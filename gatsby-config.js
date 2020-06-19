@@ -5,7 +5,7 @@ module.exports = {
     description: 'A TypeScript starter for GatsbyJS with a preconfigured MDX, Storybook and ESLint environment',
     keywords: ['gatsby', 'gatsbyjs', 'gatsby starter', 'typescript', 'github'],
     type: 'website',
-    image: 'https://awesome-gatsby-starter-ts.netlify.com/ok.png',
+    image: 'https://awesome-gatsby-starter-ts.netlify.app/ok.png',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

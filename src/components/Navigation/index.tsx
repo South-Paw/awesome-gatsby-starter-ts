@@ -121,7 +121,7 @@ export interface NavigationProps {
   path: string;
 }
 
-export const Navigation: React.FC<NavigationProps> = ({ path }) => {
+const Navigation: React.FC<NavigationProps> = ({ path }) => {
   const {
     site: {
       siteMetadata: { name },
@@ -166,3 +166,5 @@ export const Navigation: React.FC<NavigationProps> = ({ path }) => {
     </Wrapper>
   );
 };
+
+export { Navigation };

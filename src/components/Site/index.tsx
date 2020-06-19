@@ -15,7 +15,7 @@ export interface SiteProps extends SeoProps {
   path: PageProps['path'];
 }
 
-export const Site: React.FC<SiteProps> = ({ location, pageContext, path, seo, children }) => (
+const Site: React.FC<SiteProps> = ({ location, pageContext, path, seo, children }) => (
   <Theme>
     <Seo location={location} pageContext={pageContext} seo={seo} />
     <Navigation path={path} />
@@ -25,3 +25,5 @@ export const Site: React.FC<SiteProps> = ({ location, pageContext, path, seo, ch
 );
 
 export type SeoObject = ISeoObject;
+
+export { Site };

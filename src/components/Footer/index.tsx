@@ -54,7 +54,7 @@ const Right = styled(Base)`
 
 export interface FooterProps {}
 
-export const Footer: React.FC<FooterProps> = () => (
+const Footer: React.FC<FooterProps> = () => (
   <Wrapper>
     <Container maxWidth={1200}>
       <Inner>
@@ -86,3 +86,5 @@ export const Footer: React.FC<FooterProps> = () => (
     </Container>
   </Wrapper>
 );
+
+export { Footer };
