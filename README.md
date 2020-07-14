@@ -38,7 +38,7 @@ yarn start
 # storybook development (localhost:9000)
 yarn start:storybook
 
-# run eslint on project
+# run tsc and eslint on project
 yarn lint
 
 # build site for deployment (/public)
