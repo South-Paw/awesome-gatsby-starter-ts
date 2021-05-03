@@ -20,10 +20,10 @@
   },
   "scripts": {
     "build": "gatsby build",
-    "build:storybook": "",
+    "build:storybook": "build-storybook",
     "clean": "gatsby clean",
     "start": "gatsby develop",
-    "start:storybook": "",
+    "start:storybook": "start-storybook -p 6006",
     "lint": "tsc --noEmit && eslint .",
     "serve": "gatsby serve"
   },
@@ -53,8 +53,14 @@
     "styled-normalize": "^8.0.7"
   },
   "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/react": "^6.2.9",
     "@types/styled-components": "^5.1.9",
     "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "babel-loader": "^8.2.2",
     "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
