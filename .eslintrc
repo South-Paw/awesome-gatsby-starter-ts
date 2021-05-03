@@ -1,32 +1,14 @@
 {
-  "root": true,
-  "parser": "@typescript-eslint/parser",
-  "extends": ["airbnb-typescript", "plugin:prettier/recommended", "plugin:jest/recommended"],
-  "parserOptions": {
-    "ecmaVersion": 2018,
-    "ecmaFeatures": {
-      "jsx": true
-    },
-    "project": "./tsconfig.json",
-    "sourceType": "module"
-  },
-  "rules": {
-    "import/prefer-default-export": "off",
-    "jsx-a11y/accessible-emoji": "off",
-    "react/jsx-one-expression-per-line": "off",
-    "react/jsx-props-no-spreading": "off"
-  },
-  "overrides": [
-    {
-      "files": ["**/*.tsx"],
-      "rules": {
-        "react/prop-types": "off"
-      }
-    }
+  "extends": [
+    "airbnb-typescript",
+    "airbnb/hooks",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "plugin:jest/recommended"
   ],
-  "settings": {
-    "react": {
-      "version": "detect"
-    }
-  }
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {},
+  "overrides": []
 }

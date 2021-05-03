@@ -1,6 +1,6 @@
 import { graphql, PageProps, useStaticQuery } from 'gatsby';
 import * as React from 'react';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 export interface SeoObject {
   name?: string;

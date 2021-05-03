@@ -82,9 +82,9 @@ const Nav = styled('div')`
   }
 `;
 
-const Item = styled(Link).withConfig({ shouldForwardProp: (prop) => !['isActive'].includes(prop) })<{
-  isActive?: boolean;
-}>`
+const Item = styled(Link).withConfig({
+  shouldForwardProp: (prop) => !['isActive'].includes(prop),
+})<{ isActive?: boolean }>`
   padding: 16px 8px;
   color: #fff;
   font-weight: 500;
