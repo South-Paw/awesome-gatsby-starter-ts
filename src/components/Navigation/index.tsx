@@ -82,9 +82,9 @@ const Nav = styled('div')`
   }
 `;
 
-const Item = styled(Link).withConfig({ shouldForwardProp: (prop) => !['isActive'].includes(prop) })<{
-  isActive?: boolean;
-}>`
+const Item = styled(Link).withConfig({
+  shouldForwardProp: (prop) => !['isActive'].includes(prop),
+})<{ isActive?: boolean }>`
   padding: 16px 8px;
   color: #fff;
   font-weight: 500;
@@ -138,7 +138,7 @@ const Navigation: React.FC<NavigationProps> = ({ path }) => {
 
   return (
     <Wrapper>
-      <Container maxWidth={1200}>
+      <Container>
         <Inner>
           <Brand to="/">{name}</Brand>
           <Nav>
