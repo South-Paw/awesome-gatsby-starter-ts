@@ -12,7 +12,7 @@ const Container = styled('div')<ContainerProps>`
 `;
 
 Container.defaultProps = {
-  maxWidth: 800,
+  maxWidth: 1200,
 };
 
 export { Container };

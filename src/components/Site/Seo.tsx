@@ -30,7 +30,7 @@ export const Seo: React.FC<SeoProps> = ({ location: { pathname }, pageContext, s
       site {
         siteMetadata {
           name
-          basepath
+          siteUrl
           description
           keywords
           type

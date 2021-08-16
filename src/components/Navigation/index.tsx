@@ -138,7 +138,7 @@ const Navigation: React.FC<NavigationProps> = ({ path }) => {
 
   return (
     <Wrapper>
-      <Container maxWidth={1200}>
+      <Container>
         <Inner>
           <Brand to="/">{name}</Brand>
           <Nav>

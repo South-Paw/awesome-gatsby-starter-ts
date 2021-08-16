@@ -33,25 +33,25 @@ After that you can run any of following commands
 
 ```bash
 # local development (localhost:8000)
-yarn start
+npm run start
 
 # storybook development (localhost:9000)
-yarn start:storybook
+npm run start:storybook
 
 # run tsc and eslint on project
-yarn lint
+npm run lint
 
 # build site for deployment (/public)
-yarn build
+npm run build
 
 # build storybook for deployment (/public/storybook)
-yarn build:storybook
+npm run build:storybook
 
 # local gatsby serve of /public
-yarn serve
+npm run serve
 
 # clean build artifacts (/.cache and /public)
-yarn clean
+npm run clean
 ```
 
 ## Issues and Bugs

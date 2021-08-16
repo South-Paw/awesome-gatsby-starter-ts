@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { Site } from '.';
 
 export default {

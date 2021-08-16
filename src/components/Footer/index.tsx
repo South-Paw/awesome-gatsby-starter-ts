@@ -56,7 +56,7 @@ export interface FooterProps {}
 
 const Footer: React.FC<FooterProps> = () => (
   <Wrapper>
-    <Container maxWidth={1200}>
+    <Container>
       <Inner>
         <Left>
           <div>
