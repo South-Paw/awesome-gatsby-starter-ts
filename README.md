@@ -8,7 +8,7 @@
 
 ## Features
 
-- [Gatsby MDX](https://www.gatsbyjs.org/packages/gatsby-plugin-mdx/) for creation of pages with Markdown + JSX
+- [Gatsby MDX](https://www.gatsbyjs.com/docs/glossary/mdx) for creation of pages with Markdown + JSX
 - [Storybook](https://storybook.js.org/) with the Storybook Docs addon and support for components that use Gatsby components such as Link and StaticQuery
 - [styled-components](https://www.styled-components.com/) for CSS-in-JS
 - [ESLint](https://eslint.org/) with [Airbnb TypeScript](https://www.npmjs.com/package/eslint-config-airbnb-typescript)
@@ -60,7 +60,7 @@ If you manage to find any, please report them [here](https://github.com/South-Pa
 
 ## License
 
-MIT, see the [LICENSE](https://github.com/South-Paw/awesome-gatsby-starter-ts/blob/master/LICENSE) file.
+0BSD, see the [LICENSE](https://github.com/South-Paw/awesome-gatsby-starter-ts/blob/master/LICENSE) file.
 
 [netlify-master-status-img]: https://api.netlify.com/api/v1/badges/18f2589a-c443-4e19-b18a-8aa175175171/deploy-status
 [netlify-master-status]: https://app.netlify.com/sites/awesome-gatsby-starter-ts/deploys
