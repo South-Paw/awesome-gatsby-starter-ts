@@ -20,7 +20,7 @@
   },
   "scripts": {
     "build": "gatsby build",
-    "build:storybook": "build-storybook",
+    "build:storybook": "build-storybook -o public/docs",
     "clean": "gatsby clean",
     "start": "gatsby develop",
     "start:storybook": "start-storybook -p 9000",
