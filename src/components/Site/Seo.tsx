@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet-async';
 
 export interface SeoObject {
   name?: string;
-  basepath?: string;
+  siteUrl?: string;
   title?: string;
   description?: string;
   keywords?: string[];
@@ -40,13 +40,13 @@ export const Seo: React.FC<SeoProps> = ({ location: { pathname }, pageContext, s
     }
   `);
 
-  const { name, basepath, title, description, keywords, type, image } = {
+  const { name, siteUrl, title, description, keywords, type, image } = {
     ...siteMetadata,
     ...seo,
     ...(pageContext as any).frontmatter,
   } as SeoObject;
 
-  const url = `${basepath}${pathname}`;
+  const url = `${siteUrl}${pathname}`;
 
   return (
     <Helmet titleTemplate={`%s • ${name}`} defaultTitle={name}>
