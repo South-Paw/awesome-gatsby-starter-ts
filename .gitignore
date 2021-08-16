@@ -1,7 +1,7 @@
 # project dependencies
 .cache
 node_modules
-yarn-error.log
+*.log
 
 # build directory
 public
@@ -11,5 +11,3 @@ coverage
 
 # OS generated files
 .DS_Store
-
-storybook-static
