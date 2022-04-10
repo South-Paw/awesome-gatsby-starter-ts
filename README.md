@@ -20,7 +20,7 @@
 Install this starter (assuming you have [`gatsby-cli`](https://www.npmjs.com/package/gatsby-cli) installed) by running the following command:
 
 ```bash
-gatsby new your-projects-name https://github.com/South-Paw/awesome-gastby-starter-ts
+gatsby new your-projects-name https://github.com/South-Paw/awesome-gatsby-starter-ts
 ```
 
 ## Development
